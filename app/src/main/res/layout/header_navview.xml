@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_height_navview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/materialbackground">
+
+    <!--Imagen de perfil-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/perfil_width_size"
+        android:layout_height="@dimen/perfil_height_size"
+        android:src="@drawable/user"
+        android:scaleType="centerCrop"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+    <!--Nombre del usuario-->
+    <TextView
+        android:id="@+id/txv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_user"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    <!--Correo del usuario-->
+    <TextView
+        android:id="@+id/txv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_email"/>
+
+</LinearLayout>
