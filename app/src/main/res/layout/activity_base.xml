@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
-    android:layout_width="@dimen/width_drawerLayout"
+    android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/drawer_layout">
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
 
     <!--Se añade el layout real de la activity-->
     <include layout="@layout/activity_main" />
 
-    <!--Se añade la vista del menú lateral (Navigation View)-->
+    <!--Se añade la vista del menú lateral (Navigation View). El layout gravity dice por donde se abre el navigationdrawer-->
     <android.support.design.widget.NavigationView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:headerLayout="@layout/header_navview"
-        app:menu="@menu/menu_navview">
+        app:menu="@menu/menu_navview"
+        android:layout_gravity="start"
+        android:id="@+id/navigation_view">
+
 
     </android.support.design.widget.NavigationView>
 

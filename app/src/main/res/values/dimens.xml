@@ -2,7 +2,9 @@
 <resources>
     <dimen name="perfil_width_size">96dp</dimen>
     <dimen name="perfil_height_size">96dp</dimen>
-    <dimen name="width_drawerLayout">280dp</dimen>
-    <dimen name="layout_height_navview">154dp</dimen>
+    <dimen name="width_drawerLayout">270dp</dimen>
+    <dimen name="layout_height_navview">192dp</dimen>
     <dimen name="elevation_toolbar">4dp</dimen>
+    <dimen name="navheader_left_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

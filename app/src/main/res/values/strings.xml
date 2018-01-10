@@ -8,4 +8,6 @@
     <string name="navigation_subheader">Otras opciones</string>
     <string name="action_help">Ayuda</string>
     <string name="action_other_options">Otras opciones</string>
+    <string name="hello_blank_fragment_one">Soy el fragment 1</string>
+    <string name="hello_blank_fragment_two">Soy el fragment 2</string>
 </resources>
