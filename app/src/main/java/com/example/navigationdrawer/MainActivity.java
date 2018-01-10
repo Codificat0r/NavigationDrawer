@@ -1,5 +1,6 @@
 package com.example.navigationdrawer;
 
+import android.app.Fragment;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                //TERMINAR ESTO
+                FragmentOne fragmentOne;
+                FragmentTwo fragmentTwo;
                 switch (item.getItemId()) {
                     case R.id.action_home:
                         Log.d("NavigationDrawer", " Se ha pulsado la opcion HOME");
